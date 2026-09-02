@@ -1,0 +1,6 @@
+{
+  "name": "Brasileirão Série A",
+  "description": "Tabela de Classificação, Rodadas, Simulador em Tempo Real, Probabilidades UFMG e Artilharia do Campeonato Brasileiro Série A.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

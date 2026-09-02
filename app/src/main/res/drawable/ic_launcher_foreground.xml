@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Golden Shield Badge -->
+    <path
+        android:pathData="M54,26 L76,34 C76,60 54,78 54,78 C54,78 32,60 32,34 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="26"
+                android:endX="76"
+                android:endY="78"
+                android:type="linear">
+                <item android:color="#00E676" android:offset="0.0" />
+                <item android:color="#00897B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shield Golden Border -->
+    <path
+        android:pathData="M54,26 L76,34 C76,60 54,78 54,78 C54,78 32,34 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFD600"
+        android:fillColor="#00000000" />
+
+    <!-- Soccer Ball Circle -->
+    <path
+        android:pathData="M54,36 A15,15 0 1,0 54,66 A15,15 0 1,0 54,36 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Center Pentagon of soccer ball -->
+    <path
+        android:pathData="M54,46 L58,49 L56.5,54 L51.5,54 L50,49 Z"
+        android:fillColor="#212121" />
+
+    <!-- Ball Seams connecting outward -->
+    <path
+        android:pathData="M54,46 L54,41 M58,49 L64,48 M56.5,54 L60,59 M51.5,54 L48,59 M50,49 L44,48"
+        android:strokeWidth="1.8"
+        android:strokeColor="#212121" />
+
+    <!-- Outer Stars -->
+    <path
+        android:pathData="M54,28 L55.2,31 L58.5,31 L55.8,33 L56.8,36 L54,34 L51.2,36 L52.2,33 L49.5,31 L52.8,31 Z"
+        android:fillColor="#FFD600" />
+</vector>
